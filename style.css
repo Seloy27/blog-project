@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: rgb(254, 234, 204);
+    background-color: rgb(252, 239, 220);
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
@@ -55,19 +55,49 @@ footer {
     padding: 2rem 0;
 }
 
-.footer-wrapper {
-    margin: auto 5rem;
+.content-wrapper {
+    margin: auto 12rem;
 }
 
 hr {
     background-color: white;
 }
 
-.fcontent-wrapper {
+.footer-container .wrapper {
     display: flex;
     margin: auto 3rem;
 }
 
-.fcontent-wrapper #content {
+.footer-container #content {
     margin: auto 1em;
+}
+
+.related-contents .wrapper {
+    margin: 0 auto;
+}
+
+.footer-container .wrapper #content:nth-child(1) {
+    font-size: 0.9em;
+}
+
+.darkmode {
+    background-color: #181714;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+#darkmode {
+    background: none;
+    border: none;
+}
+
+#dark {
+    width: 1.8rem;
+    height: auto;
+    stroke: white;
+    fill: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

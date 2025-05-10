@@ -1,7 +1,7 @@
 
-function afa() {
-    return console.log("Hello world");
-}
+const darkmode = document.getElementById('darkmode');
+const main_content = document.getElementById('main-content');
 
-const x = 2;
-const y = "FAAFAFAF";
+darkmode.addEventListener('click', event => {
+    main_content.classList.toggle('darkmode');
+});
