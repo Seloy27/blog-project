@@ -1,103 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: rgb(252, 239, 220);
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #000000c8;
+  background-color: rgb(252, 239, 220);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000c8;
 }
 
 .page-wrapper {
-    margin: auto 15rem auto 5rem;
+  margin: auto 15rem auto 5rem;
 }
 
 .title-wrapper {
-    margin: 0 15rem 0 5rem;
+  margin: 0 15rem 0 5rem;
 }
 
 .p-wrapper {
-    margin: auto 15rem auto 6rem;
+  margin: auto 15rem auto 6rem;
 }
 
 .title-container h1{
-    font-size: 2.1em;
+  font-size: 2.1em;
 }
 
 .p-container p {
-    font-size: large;
+  font-size: large;
 }
 
 .p-container li {
-    font-size: large;
+  font-size: large;
 }
 
 .bullets li {
-    list-style-type: disc;
+  list-style-type: disc;
 }
 
 .sections {
-    margin: 7rem auto;
+  margin: 7rem auto;
 }
 
 .sections:nth-child(3) ol {
-    padding: 2rem 0 2rem 3rem;
-    border-left: black 2px solid;
+  padding: 2rem 0 2rem 3rem;
+  border-left: black 2px solid;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 footer {
-    background-color: #19191c;
-    color: white;
-    padding: 2rem 0;
+  background-color: #19191c;
+  color: white;
+  padding: 2rem 0;
 }
 
 .content-wrapper {
-    margin: auto 12rem;
+  margin: auto 12rem;
 }
 
 hr {
-    background-color: white;
+  background-color: white;
 }
 
 .footer-container .wrapper {
-    display: flex;
-    margin: auto 3rem;
+  display: flex;
+  margin: auto 3rem;
 }
 
 .footer-container #content {
-    margin: auto 1em;
+  margin: auto 1em;
 }
 
 .related-contents .wrapper {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .footer-container .wrapper #content:nth-child(1) {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 .darkmode {
-    background-color: #181714;
-    color: rgba(255, 255, 255, 0.774);
+  background-color: #181714;
+  color: rgba(255, 255, 255, 0.774);
 }
 
 #darkmode {
-    background: none;
-    border: none;
+  background: none;
+  border: white 1px solid;
+  border-radius: 8px;
 }
 
 #dark {
-    width: 1.8rem;
-    height: auto;
-    stroke: white;
-    fill: white;
+  width: 1.8rem;
+  height: auto;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+#me {
+  font-style: italic;
+  text-decoration:underline;
+}
+
+@media only screen and (max-width:600px) {
+  .page-wrapper {
+    margin: 0;
+  }
+
+  .title-wrapper {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .p-wrapper {
+    margin: 0 2rem 0 2rem;
+  }
+
+  footer .content-wrapper {
+    margin: 0 2rem;
+  }
+
+  footer #content:nth-child(1) {
+    font-size: 0.8em;
+  }
+
+  .footer-container .wrapper {
+    margin: 0;
+  }
+
+  .sections:nth-child(3) ul li {
+    font-size: medium;
+  }
+  
+  footer {
+    color: rgba(241, 241, 241, 0.908);
+  }
 }
