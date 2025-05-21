@@ -40,6 +40,16 @@ body {
   margin: 7rem auto;
 }
 
+.sections:first-child {
+  margin-top: 0;
+  padding-top: 7remw;
+}
+
+.sections:last-child {
+  margin-bottom: 0;
+  padding-bottom: 7rem;
+}
+
 .sections:nth-child(3) ol {
   padding: 2rem 0 2rem 3rem;
   border-left: black 2px solid;
